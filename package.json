@@ -1,0 +1,16 @@
+{
+  "name": "be-happily-gluten-free",
+  "version": "1.0.0",
+  "description": "Portfolio project Bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "Jackie Shawley",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
