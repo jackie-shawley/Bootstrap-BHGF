@@ -1,11 +1,17 @@
+* { cursor: url("flower.cur"), url("flower.png") default; }
+
 body {
     font-family: "Open-Sans", sans-serif;
+    background-color: rgba(26, 245, 195, .2);
 }
 
 h1, h2, h3 {
     font-family: "rokkit", serif;
 }
+hr {
+    border-color: rgba(26, 245, 195, .5);
 
+}
 
 .site-footer {
     background-image: linear-gradient(#1af5c3, black);
@@ -66,3 +72,5 @@ a, a:hover {
 .img-container {
     text-align: center;
 }
+
+
