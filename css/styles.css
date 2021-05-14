@@ -2,7 +2,7 @@
 
 body {
     font-family: "Open-Sans", sans-serif;
-    background-color: rgba(26, 245, 195, .2);
+    background-color: rgba(26, 245, 195, .25);
 }
 
 h1, h2, h3 {
@@ -18,28 +18,47 @@ hr {
     padding: 20px 0;
 }
 
-.jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-color: black;
-    color: white;
-    background-image: radial-gradient(rgba(26, 245, 195, .5) 20%, black 20%);
-    background-position: 0 0;
-    background-size: 50px 50px;
-}
+
 .jumbotron h1 {
-    color: white;
+    color: black;
     font-family: "rokkitt", serif;
     font-size: 3.5rem;    
-    background-color: rgba(0, 0, 0, .55);
+    text-align: right;
+}
+
+.jumbotron {
+    background-color: rgba(26, 245, 195, .25);
+    border: 
 }
 
 .jumbotron img {
-    background-color: rgba(0, 0, 0, .70);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.jumbotron span {
+    font-family: rochester; 
+    color: black;
+    text-shadow: 2px 2px #1af5c3;
+
+}
+
+hr {
+    display: block;
+    border: 0px;
+    height: 10px;
+    background-image: url('images/polka dot background.png');
+
 }
 
 .text-responsive {
-    font-size: calc(100% + 1vw + 1vw);
+    font-size: calc(30% + 1vw + 1vw);
+}
+
+.navbar {
+    background-color: #1af5c3;
 }
 
 .nav-item {
@@ -53,14 +72,15 @@ hr {
     color: black;
 }
 
+.nav-item a:hover {
+    text-decoration: none;
+    color:rgba(0, 0, 0, .55);
+}
+
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
-}
-
-.navbar {
-    background-color: #1af5c3;
 }
 
 a, a:hover {
@@ -73,15 +93,12 @@ a, a:hover {
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: solid #1af5c3;
 }
 
 .carousel h3 {
     color: #5bc0de;
 }
 
-.img-container {
-    text-align: center;
-}
 
 
