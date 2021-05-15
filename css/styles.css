@@ -6,11 +6,14 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "rokkit", serif;
+    font-family: rochester; 
+    color: black;
+    text-shadow: 2px 2px #1af5c3;
 }
-hr {
-    border-color: rgba(26, 245, 195, .5);
 
+p {
+    font-family: "rokkitt", serif;
+    font-size: 1.5rem;
 }
 
 .site-footer {
@@ -27,8 +30,9 @@ hr {
 }
 
 .jumbotron {
-    background-color: rgba(26, 245, 195, .25);
-    border: 
+    background-image: linear-gradient(to top, white, #1af5c3);
+    margin:0px;
+    padding: 40px 0px 0px 0px;
 }
 
 .jumbotron img {
@@ -42,15 +46,29 @@ hr {
     font-family: rochester; 
     color: black;
     text-shadow: 2px 2px #1af5c3;
-
 }
 
 hr {
-    display: block;
-    border: 0px;
-    height: 10px;
-    background-image: url('images/polka dot background.png');
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    background-image: radial-gradient(rgba(26, 245, 195, 1) 20%, black 20%);
+    background-position: 0 0;
+    background-size: 20px 20px;
+}
 
+#thinHR {
+    margin: 0;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    background-image: radial-gradient(rgba(26, 245, 195, 1) 20%, black 20%);
+    background-position: 0 0;
+    background-size: 8px 8px;
+    width:85%;
+    height: 1px;
+    border-radius: 5px;  
 }
 
 .text-responsive {
@@ -64,9 +82,10 @@ hr {
 .nav-item {
     font-family: "rokkitt", serif;
     font-size: 2rem; 
-    padding: 0 40px;
+    padding: 0 20px;
     color: white;
 }
+
 
 .nav-item.active a {
     color: black;
@@ -77,8 +96,7 @@ hr {
     color:rgba(0, 0, 0, .55);
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) {
     .nav-item {
     font-family: "rokkitt", serif;
     font-size: 1.5rem; 
@@ -87,7 +105,7 @@ hr {
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
     .nav-item {
     font-family: "rokkitt", serif;
     font-size: 2rem; 
@@ -96,14 +114,16 @@ hr {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .nav-item {
     font-family: "rokkitt", serif;
     font-size: 2rem; 
-    padding: 0 20px;
+    padding: 0 40px;
     color: white;
     }
 }
+
+
 
 .row-content {
     padding: 50px 0;
