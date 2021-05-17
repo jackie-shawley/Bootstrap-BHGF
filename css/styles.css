@@ -123,3 +123,13 @@ a, a:hover {
 
 .carousel h3 {
   color: #1af5c3; }
+
+.card h3 {
+  font-size: 1.5rem;
+  text-shadow:none;
+}
+
+.card p {
+  font-family: "quicksand", sans-serif;
+}
+

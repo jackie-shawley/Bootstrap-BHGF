@@ -165,7 +165,14 @@ a, a:hover {
     color: $color-primary;
 }
 
+.card p {
+    font-family: "quicksand", sans-serif;
+  }
 
+  .card-header {
+      border-color: $color-primary;
+      border-width: 10px;
+  }
 
 
 
