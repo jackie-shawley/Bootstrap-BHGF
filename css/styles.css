@@ -58,7 +58,6 @@ hr {
   margin: 0;
   padding: 3px;
   background-color: black;
-  color: white;
   background-image: radial-gradient(#1af5c3 20%, black 20%);
   background-position: 0 0;
   background-size: 8px 8px;
@@ -133,3 +132,9 @@ a, a:hover {
   font-family: "quicksand", sans-serif;
 }
 
+
+#address {
+  font-family: "rokkit";
+  color: black;
+  font-size: 2rem;
+}
