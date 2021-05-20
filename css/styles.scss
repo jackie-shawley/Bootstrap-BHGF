@@ -9,7 +9,6 @@ $header-font: "rochester", cursive;
 
 
 
-* { cursor: url(/images/logos\ etc/flower.cur), url(/images/logos\ etc/flower.png) default; }
 
 body {
     font-family: $body-font;
@@ -28,13 +27,33 @@ h2, h3 {
     font-size: 3rem;
 }
 
+h4 {
+    font-family: $header-font; 
+    color: black;
+    text-shadow: 2px 2px $color-primary;
+    font-size: 2rem;
+}
+
+
+h5 {
+    font-family: $header-font; 
+    color: black;
+    text-shadow: 2px 2px $color-primary;
+    font-size: 2rem; 
+}
+
 p {
     font-family: $body-font;
     font-size: 1.5rem;
 }
 
+.site-footer p {    
+    font-family: $body-font;
+    font-size: 1rem;    
+}
+
 .site-footer {
-    background-image: linear-gradient($color-primary, $color-secondary);
+    background-image: linear-gradient(to bottom, $color-light, $color-primary);
     padding: 20px 0;
 }
 
@@ -120,6 +139,17 @@ hr {
     padding: 0 10px;
     color: white;
     }
+    h4 {
+    font-family: $header-font; 
+    color: black;
+    text-shadow: 1px 1px $color-primary;
+    font-size: 1rem;
+    }
+    #map {
+    width: 50%;
+    height: 50%;
+
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -128,6 +158,12 @@ hr {
     font-size: 2rem; 
     padding: 0 20px;
     color: white;
+    }
+    h4 {
+    font-family: $header-font; 
+    color: black;
+    text-shadow: 1px 1px $color-primary;
+    font-size: 2rem;
     }
 }
 

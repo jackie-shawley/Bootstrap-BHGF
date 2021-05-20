@@ -1,6 +1,3 @@
-* {
-  cursor: url("/images/logos etc/flower.cur"), url("/images/logos etc/flower.png") default; }
-
 body {
   font-family: "rokkitt", serif;
   background-color: rgba(26, 245, 195, 0.25); }
@@ -15,12 +12,28 @@ h2, h3 {
   text-shadow: 2px 2px #1af5c3;
   font-size: 3rem; }
 
+h4 {
+  font-family: "rochester", cursive;
+  color: black;
+  text-shadow: 2px 2px #1af5c3;
+  font-size: 2rem; }
+
+h5 {
+  font-family: "rochester", cursive;
+  color: black;
+  text-shadow: 2px 2px #1af5c3;
+  font-size: 2rem; }
+
 p {
   font-family: "rokkitt", serif;
   font-size: 1.5rem; }
 
+.site-footer p {
+  font-family: "rokkitt", serif;
+  font-size: 1rem; }
+
 .site-footer {
-  background-image: linear-gradient(#1af5c3, black);
+  background-image: linear-gradient(to bottom, white, #1af5c3);
   padding: 20px 0; }
 
 .jumbotron h1 {
@@ -58,6 +71,7 @@ hr {
   margin: 0;
   padding: 3px;
   background-color: black;
+  color: white;
   background-image: radial-gradient(#1af5c3 20%, black 20%);
   background-position: 0 0;
   background-size: 8px 8px;
@@ -89,14 +103,27 @@ hr {
     font-family: "rokkitt", serif;
     font-size: 1.5rem;
     padding: 0 10px;
-    color: white; } }
+    color: white; }
+  h4 {
+    font-family: "rochester", cursive;
+    color: black;
+    text-shadow: 1px 1px #1af5c3;
+    font-size: 1rem; }
+  #map {
+    width: 50%;
+    height: 50%; } }
 
 @media screen and (min-width: 992px) {
   .nav-item {
     font-family: "rokkitt", serif;
     font-size: 2rem;
     padding: 0 20px;
-    color: white; } }
+    color: white; }
+  h4 {
+    font-family: "rochester", cursive;
+    color: black;
+    text-shadow: 1px 1px #1af5c3;
+    font-size: 2rem; } }
 
 @media screen and (min-width: 1200px) {
   .nav-item {
@@ -123,18 +150,14 @@ a, a:hover {
 .carousel h3 {
   color: #1af5c3; }
 
-.card h3 {
-  font-size: 1.5rem;
-  text-shadow:none;
-}
-
 .card p {
-  font-family: "quicksand", sans-serif;
-}
+  font-family: "quicksand", sans-serif; }
 
+.card-header {
+  border-color: #1af5c3;
+  border-width: 10px; }
 
-#address {
+.ul li {
   font-family: "rokkit";
   color: black;
-  font-size: 2rem;
-}
+  font-size: 2rem; }
