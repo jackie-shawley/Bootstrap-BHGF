@@ -15,6 +15,7 @@ body {
     background-color: $color-primary-transparent;
 }
 
+
 h1 {
     font-family: $header-font; 
     color: black;
@@ -131,39 +132,45 @@ hr {
     text-decoration: none;
     color:$color-secondary-transparent;
 }
-
+@media screen and (max-width: 575px) {
+    .col-form-label {
+        text-align: left;
+    }
+}
 @media screen and (min-width: 576px) {
     .nav-item {
-    font-family: $body-font;
-    font-size: 1.5rem; 
-    padding: 0 10px;
-    color: white;
+        font-family: $body-font;
+        font-size: 1.5rem; 
+        padding: 0 10px;
+        color: white;
     }
     h4 {
-    font-family: $header-font; 
-    color: black;
-    text-shadow: 1px 1px $color-primary;
-    font-size: 1rem;
+        font-family: $header-font; 
+        color: black;
+        text-shadow: 1px 1px $color-primary;
+        font-size: 1rem;
     }
     #map {
-    width: 50%;
-    height: 50%;
-
+        width: 50%;
+        height: 50%;
+    }
+    .col-form-label {
+        text-align: left;
     }
 }
 
 @media screen and (min-width: 992px) {
     .nav-item {
-    font-family: $body-font;
-    font-size: 2rem; 
-    padding: 0 20px;
-    color: white;
+        font-family: $body-font;
+        font-size: 2rem; 
+        padding: 0 20px;
+        color: white;
     }
     h4 {
-    font-family: $header-font; 
-    color: black;
-    text-shadow: 1px 1px $color-primary;
-    font-size: 2rem;
+        font-family: $header-font; 
+        color: black;
+        text-shadow: 1px 1px $color-primary;
+        font-size: 2rem;
     }
 }
 
@@ -176,11 +183,8 @@ hr {
     }
 }
 
-
-
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
     min-height: 200px;
 }
 
@@ -205,15 +209,36 @@ a, a:hover {
     font-family: "quicksand", sans-serif;
   }
 
-  .card-header {
-      border-color: $color-primary;
-      border-width: 10px;
-  }
+.card-header {
+    border-color: $color-primary;
+    border-width: 5px;
+}
 
- .ul li {
-     font-family: "rokkit";
-     color: $color-secondary;
-     font-size: 2rem;
- }
+.card-footer {
+    border-color: $color-primary;
+    border-width: 5px;
+}
 
 
+.ul li {
+    font-family: "rokkit", serif;
+    color: $color-secondary;
+    font-size: 2rem;
+}
+
+ .form-control {
+    font-family: $body-font;
+ 
+}
+#love {
+    font-family: $header-font; 
+    color: $color-secondary;
+    text-shadow: 1px 1px $color-primary;
+}
+
+p span {
+    font-family: $header-font; 
+    color: $color-secondary;
+    text-shadow: 2px 2px $color-primary;
+    font-size: 2rem;
+}
