@@ -242,3 +242,24 @@ p span {
     text-shadow: 2px 2px $color-primary;
     font-size: 2rem;
 }
+
+#accordion {
+    p {
+       font-family: $body-font;
+       font-size: 20px; 
+    }
+    span {
+        font-family: $body-font;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: none;
+    }
+    h5 {
+        font-family: $header-font;
+        font-size: 1.5rem;
+        color: $color-secondary;
+        text-shadow: none;
+    }
+    
+}
+

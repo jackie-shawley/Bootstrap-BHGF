@@ -184,3 +184,19 @@ p span {
   color: black;
   text-shadow: 2px 2px #1af5c3;
   font-size: 2rem; }
+
+#accordion p {
+  font-family: "rokkitt", serif;
+  font-size: 20px; }
+
+#accordion span {
+  font-family: "rokkitt", serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: none; }
+
+#accordion h5 {
+  font-family: "rochester", cursive;
+  font-size: 1.5rem;
+  color: black;
+  text-shadow: none; }
