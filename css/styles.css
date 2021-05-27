@@ -24,6 +24,10 @@ h5 {
   text-shadow: 2px 2px #1af5c3;
   font-size: 2rem; }
 
+h6 {
+  font-family: "rokkitt", serif;
+  font-size: 1.5rem; }
+
 p {
   font-family: "rokkitt", serif;
   font-size: 1.5rem; }
@@ -58,7 +62,7 @@ p {
   color: black;
   text-shadow: 2px 2px #1af5c3; }
 
-hr {
+#thickHR {
   margin: 0;
   padding: 10px;
   background-color: black;
@@ -200,3 +204,20 @@ p span {
   font-size: 1.5rem;
   color: black;
   text-shadow: none; }
+
+.thumbnail .caption {
+  font-family: "rokkitt", serif;
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 1rem; }
+
+#menu p {
+  font-family: "rokkitt", serif;
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-right: 2px; }
+
+.row-content-menu {
+  padding: 25px 0;
+  min-height: 200px; }

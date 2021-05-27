@@ -43,6 +43,10 @@ h5 {
     font-size: 2rem; 
 }
 
+h6 {
+    font-family: $body-font;
+    font-size: 1.5rem;
+}
 p {
     font-family: $body-font;
     font-size: 1.5rem;
@@ -85,7 +89,7 @@ p {
     text-shadow: 2px 2px $color-primary;
 }
 
-hr {
+#thickHR {
     margin: 0;
     padding: 10px;
     background-color: $color-secondary;
@@ -262,4 +266,29 @@ p span {
     }
     
 }
+
+.thumbnail {
+    .caption {
+        font-family: $body-font;
+        color: $color-secondary-transparent;
+        font-size: 1rem;
+    }
+}
+
+#menu {
+    p {
+        font-family: $body-font;
+        font-size: 1rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+
+.row-content-menu {
+    padding: 25px 0;
+    min-height: 200px;
+}
+
 
