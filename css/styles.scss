@@ -292,3 +292,19 @@ p span {
 }
 
 
+.modal {
+    .modal-header {
+        background-image: linear-gradient(to top, $color-light, $color-primary);
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .modal-body {
+        background-color: $color-primary-transparent;
+        line-height: 24px;
+    }
+
+    .modal-footer {
+        background-image: linear-gradient(to bottom, $color-light, $color-primary);
+    }
+}
