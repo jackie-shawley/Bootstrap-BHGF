@@ -11,7 +11,7 @@ $(function () {
          //cookie will expire when browser is closed
        }
        
-
+    $('[data-toggle="popover"]').popover();
 
 
   });

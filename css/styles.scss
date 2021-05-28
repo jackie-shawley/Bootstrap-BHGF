@@ -89,7 +89,7 @@ p {
     text-shadow: 2px 2px $color-primary;
 }
 
-#orderButton {
+#button {
     background-color: $color-primary;
     color: $color-secondary;
     
@@ -314,3 +314,16 @@ p span {
         background-image: linear-gradient(to bottom, $color-light, $color-primary);
     }
 }
+
+#aboutUs {
+    p {
+        font-family: $body-font;
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+}
+
+.breadcrumb {
+    background-color: $color-primary-transparent;
+}
+

@@ -23,11 +23,19 @@
         <div>
             <div class="container">
                 <div class="row">
-                    <div class="col-6 offset-3 img-container">
-                        <img src="images/logos etc/5 Be Happily Gluten Free Logo transparent.png"class="img-fluid mx-auto d-block" alt="Be Happily Gluten Free Logo" />
+                    <div class="col-12 col-md-3 d-none d-md-block pl-5 mt-5 text-md-right text-nowrap">
+                        <a role="button" id="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#mailListModal">Join Our Email List!</a>
                     </div>
-                    <div class="col-3 float:right mt-5 pl-5">
-                        <a role="button" id="orderButton" class="btn btn-dark btn-sm" href="tel:+9876543210">Order Now</a>
+                    <div class="col-12 col-md-6 img-container">
+                        <a href="index.html">
+                            <img src="images/logos etc/5 Be Happily Gluten Free Logo transparent.png"class="img-fluid mx-auto d-block" alt="Be Happily Gluten Free Logo" />
+                        </a>                      
+                    </div>
+                    <div class="col-6  mt-5 mb-3 d-md-none text-left text-nowrap">
+                        <a role="button" id="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#mailListModal">Join Our Email List!</a>
+                    </div>
+                    <div class="col-6 col-md-3 text-right text-md-left pl-5 mt-5">
+                        <a role="button" id="button" class="btn btn-dark btn-sm" href="tel:+9876543210">Order Now</a>
                     </div>
                 </div>
                 <div class="row">                    
@@ -58,7 +66,7 @@
         </div>
     </nav>
 
-    <!--modal-->
+    <!--ingredientsModal-->
     <div id="ingredientsModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
@@ -75,6 +83,39 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Close</button>
                 </div>
+            </div>
+        </div>
+    </div>
+
+     <!--mailListModal-->
+     <div id="mailListModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title"">Join Our Email List?</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <p>Stay up to date with our specials, sales and new yummy treats!</p>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="emailFirstName">First Name</label>
+                                    <input type="text" class="form-control form-control-sm" id="emailFirstName" placeholder="First Name">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="emailListEmail">Email Address</label>
+                                    <input type="email" class="form-control form-control-sm" id="emailListEmail" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">No Thanks!</button>
+                                <button type="submit" class="btn btn-info btn-sm ml-1">Submit</button>
+                            </div>
+                         </form>                     
+                    </div>
+                </div>     
             </div>
         </div>
     </div>
@@ -110,7 +151,7 @@
             </div>
             <div class="col-md-4">
                 <div class="thumbnail">
-                    <img src="images/cookies/silly-candy-corns-for-web.jpeg" class="img-thumbnail img-fluid mx-auto d-block" alt="Silly Candy Corn Cookies" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Call us at (987)867-5309!">
+                    <img src="images/cookies/silly-candy-corns-for-web.jpeg" class="img-thumbnail img-fluid mx-auto d-block" alt="Silly Candy Corn Cookies" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Call us for your custom cookies! <br> (987)867-5309">
                     <div class="caption text-center">                                 
                         Silly Candy Corn Sugar Cookies - call for your custom design!
                     </div>
@@ -530,7 +571,7 @@
                     <div class="caption text-center">
                         Call for your custom cake!
                     </div>           
-                    <img src="images/cakes/happy birthday mom for web.jpg" class="img-thumbnail img-fluid float-right" alt="Triple Chocolate Capuccino Cake" data-toggle="tooltip" data-placement="top" data-html="true" title="Call us at (987)867-5309!">          
+                    <img src="images/cakes/happy birthday mom for web.jpg" class="img-thumbnail img-fluid float-right" alt="Triple Chocolate Capuccino Cake" data-toggle="tooltip" data-placement="bottom" data-html="true" title="Call us for your custom cake! <br> (987)867-5309">          
                 </div>
             </div>
             <div class="col-md-4">
@@ -560,15 +601,15 @@
                 <div class="row">                 
                     <div class="col-6" style="text-align: center;">
                         <h5 class="mb-3">Let's Be Friends</h5>                                         
-                        <a class="btn btn-social-icon btn-instagram ml-1 mr-1 ml-md-3 mr-md-3" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                        <a class="btn btn-social-icon btn-facebook ml-1 mr-1 ml-md-3 mr-md-3" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-twitter ml-1 mr-1 ml-md-3 mr-md-3" href="http://twitter.com/"><i class="fa fa-twitter"></i><a>                                                           
+                        <a class="btn btn-social-icon btn-instagram ml-1 mr-1 ml-md-3 mr-md-3" target="_blank"  href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook ml-1 mr-1 ml-md-3 mr-md-3" target="_blank"  href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter ml-1 mr-1 ml-md-3 mr-md-3" target="_blank"  href="http://twitter.com/"><i class="fa fa-twitter"></i><a>                                                           
                     </div>
                     <div class="col-6" style="text-align: center;">
                         <h5><a href="contact.html">Contact Us</a></h5>
                         <p>708 S Lumina Ave <br>
                             Wrightsville Beach, NC 28480 <br />
-                            <a role="button" href="tel:+9876543210">(987)867-5309</a><br />
+                            <a role="button" class="btn btn-link" href="tel:+9876543210">(987)867-5309</a><br />
                             <a role="button" class="btn btn-link" href="mailto:behappilyglutenfree@gmail.com">behappilyglutenfree@gmail.com</a></p>
 
                     </div>

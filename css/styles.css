@@ -62,7 +62,7 @@ p {
   color: black;
   text-shadow: 2px 2px #1af5c3; }
 
-#orderButton {
+#button {
   background-color: #1af5c3;
   color: black; }
 
@@ -237,3 +237,11 @@ p span {
 
 .modal .modal-footer {
   background-image: linear-gradient(to bottom, white, #1af5c3); }
+
+#aboutUs p {
+  font-family: "rokkitt", serif;
+  font-size: 1.5rem;
+  line-height: 30px; }
+
+.breadcrumb {
+  background-color: rgba(26, 245, 195, 0.25); }
