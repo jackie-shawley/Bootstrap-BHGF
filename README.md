@@ -52,7 +52,7 @@
 
 ![Be Happily Gluten Free Screen Shot](/images/homepage_screenshot.png "BHGF Home Page Screen Shot")
 
-`jackie-shawley`, `Bootstrap-BHGF`, `https://www.linkedin.com/in/jackie-kopco-shawley/`, `jackiekopco@aol.com`, `Be Happily Gluten Free Bootstrap Portfolio Project`
+`jackie-shawley`, `Bootstrap-BHGF`, `https://www.linkedin.com/in/jackie-kopco-shawley/`, `jackiekopcoshawley@gmail.com`, `Be Happily Gluten Free Bootstrap Portfolio Project`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -129,7 +129,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Jackie Shawley - https://www.linkedin.com/in/jackie-kopco-shawley - email@jackiekopco@aol.com
+Jackie Shawley - https://www.linkedin.com/in/jackie-kopco-shawley - email@jackiekopcoshawley@gmail.com
 
 Project Link: [https://github.com/jackie-shawley/Bootstrap-BHGF.git](https://github.com/jackie-shawley/Bootstrap-BHGF.git)
 
