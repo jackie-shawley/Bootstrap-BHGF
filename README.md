@@ -7,19 +7,16 @@
     
   </a>
 
-<h3 align="center">Be Happily Gluten Free Bakery & Cafe</h3>
+<h1 align="center">Be Happily Gluten Free Bakery & Cafe</h3>
 
   <p align="center">
     A website built for a fictional bakery and cafe as a portfolio project during my Nucamp computer coding bootcamp
     <br />
+    <br />
     <a href="https://github.com/jackie-shawley/Bootstrap-BHGF.git"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/jackie-shawley/Bootstrap-BHGF.git">View Demo</a>
-    ·
-    <a href="https://github.com/jackie-shawley/Bootstrap-BHGF.git/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/jackie-shawley/Bootstrap-BHGF.git/issues">Request Feature</a>
+    <a href="https://be-happily-gluten-free-bootstrap.netlify.app/">View Live Demo</a>
   </p>
 </div>
 
